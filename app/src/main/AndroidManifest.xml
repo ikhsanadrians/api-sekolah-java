@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.connexdev.projectlogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectLogin">
+        <activity
+            android:name=".TestingJawa"
+            android:exported="false" />
+        <activity
+            android:name=".DetilSiswa"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".DetileGuru"
+            android:exported="false" />
+        <activity
+            android:name=".TampilGuru"
+            android:exported="false" />
+        <activity
+            android:name=".Bantuan"
+            android:exported="false" />
+        <activity
+            android:name=".TambahMapel"
+            android:exported="false" />
+        <activity
+            android:name=".TambahNilai"
+            android:exported="false" />
+        <activity
+            android:name=".TambahKelas"
+            android:exported="false" />
+        <activity
+            android:name=".TambahGuru"
+            android:exported="false" />
+        <activity
+            android:name=".TampilSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".TambahSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrudHomePage"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

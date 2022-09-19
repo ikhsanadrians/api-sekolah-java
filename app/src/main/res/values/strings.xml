@@ -1,0 +1,8 @@
+<resources>
+    <string name="dropdown_gender">Gender</string>
+    <string-array name="gender_array">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+</resources>
